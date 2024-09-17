@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone pay</title>
+   
+<style>
+    *{
+        background:url("./imgesshop/PhonePe-\ bac.Logo.3.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+    .t1{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(70, 39, 144);
+    }
+    .t2{
+        font-size: 28px;
+    }
+    .con{
+        font-size: 30px;
+        background-color: black;
+        color:black;
+        cursor: pointer;
+    }
+    .home{
+        text-decoration: none;
+        font-size: 30px;
+        color: black;
+    }
+    .back{
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(58, 17, 222);
+    }
+</style>
+    
+</head>
+
+<body>
+    <a href="./Home1.html" class="home">Home</a>
+    <br>
+    <br>
+    <a href="./Payment.html" class="back">Back</a>
+    <center><h1>Online Transaction</h1></center>
+    <img src="./imgesshop/PhonePe-Logo.1.png" class="img1" width="400px" alt="">
+     <div class="t1">
+    Number :<input type="text" placeholder="Enter a valid number" class="t2" >
+    </div>
+
+    <center><h1>OR</h1></center>
+<div class="t1">
+UPI ID :<input type="text" placeholder="Enter a valid UPI Id" checked class="t2">
+</div>
+
+    <br>
+    <br>
+    <center> <a href="./consucess.html"><input type="button" onclick="f4()" value="Confirm" class="con"></a></center>
+
+
+    <!-- <center> <input type="button" value="Confirm"></center> -->
+    
+    <!-- <h3> <center> <input type="button" value="Confirm" onclick="bt()"></center></h3> -->
+    <script>
+        function f4(){
+            alert("your Order is confirmed !!")
+        }
+        console.log(f4);
+    </script>
+    
+</body>
+</html>

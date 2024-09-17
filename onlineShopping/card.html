@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+
+        *{
+        background:url("./imgesshop/card2.bajpeg.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+    .con{
+        font-size: 30px;
+        background-color: black;
+        color:black;
+        cursor: pointer;
+    }
+    /* .box{
+        border: black 2px;
+        margin: 20px 20px;
+        padding: 20px 20px;
+        border-radius: 10px;
+        background-color: aqua;
+    } */
+
+    .pc1{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(70, 39, 144);
+    }
+
+    .pe1{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(70, 39, 144);
+    }
+    .pv1{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(70, 39, 144);
+
+    }
+        
+
+      .home{
+        text-decoration: none;
+        font-size: 30px;
+        color: black;
+      }
+    .back{
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(216, 13, 13);
+    }
+    </style>
+</head>
+<body>
+    <a href="./Home1.html" class="home">Home</a>
+    <br>
+    <br>
+    <a href="./Payment.html" class="back">Back</a>
+    <center><h1>Online Transaction</h1></center>
+    <br>
+
+    <img src="./imgesshop/card2.jpeg" class="img1" width="180px" alt="">
+    <center class="box"><h2>Please Enter the Card Details</h2></center>
+    <br>
+  
+    
+   <p class="pc1"> Card No: <input type="number" ></p>
+    
+   <p class="pe1"> ExpDate: <input type="date"></p>
+    
+    <p class="pv1">CVV: <input type="password"></p>
+
+    <br>
+    <br>
+    <center> <a href="./consucess.html"><input type="button" onclick="f4()" value="Confirm" class="con"></a></center>
+
+
+
+</div>
+
+
+<script>
+     function f4(){
+            alert("your Order is confirmed !!")
+        }
+        console.log(f4);
+</script>
+
+    
+</body>
+</html>

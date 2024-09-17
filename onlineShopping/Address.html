@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Address</title>
+
+    <style>
+        *{
+          /* background-color: rgb(228, 214, 214);  */
+          background-color:powderblue; 
+          margin-left: 60px;
+          margin-right: 60px;
+          margin-top: 10px;
+        }
+        .c{
+            border: solid;
+            background-color:rgb(190, 217, 240);
+
+ 
+        }
+        .pa{
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+
+    </style>
+
+    <script>
+         function bt(){
+            var v=document.getElementById ('T').value;
+            // var v=document.getElementById ('B').value;
+     document.writeln("<h1>Your Order is Confirmed </h1>"+v)
+    document.writeln("<h1>Thank You ! </h1>")
+    // document.writeln(+B)
+      
+         }
+    </script>
+
+</head>
+<!-- <a href="Home1.html" id="B">Back To Home Page</a> -->
+
+<body class="c">
+    <form class="F">
+    
+    <h1><center>Address</center></h1>
+
+    <h2><a href="Home1.html">HOME</a></h2>
+   
+
+    <h5>Name:<input type="text" id="T" ></h5>
+   
+    <h5>Phone:<input type="number" placeholder="Enter a number"></h5>
+    <h5>Email:<input type="email" placeholder="Enter a Mail Id"></h5>
+    <h5>Area:<input type="text"></h5>
+    <h5>City:<input type="text"></h5>
+    <h5>State:<input type="text"></h5>
+
+   <center> <a href="./Payment.html" class="pa">Confirm</a></center>
+
+   <!-- <h3> <center> <input type="button" value="Confirm" onclick="bt()"></center></h3> -->
+   <h4><a href="Address.html">Change Address</a></h4>
+   
+</form>
+    
+</body>
+</html> 

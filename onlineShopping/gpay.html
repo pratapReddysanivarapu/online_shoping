@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gpay</title>
+
+    <style>
+        *{
+
+            background: url("./imgesshop/gpay-logo.bac.1.png");
+            background-repeat: no-repeat;
+             background-attachment: fixed;
+              background-size: cover;
+        
+        }
+        .t3{
+        text-align: center;
+        font-size: 30px;
+        color: rgb(70, 39, 144);
+    }
+    .t4{
+        font-size: 28px;
+    }
+
+    .home{
+        text-decoration: none;
+        font-size: 30px;
+        color: black;
+    }
+    .back{
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(58, 17, 222);
+    }
+    .con{
+        font-size: 30px;
+        background-color: black;
+        color:black;
+        cursor: pointer;
+    }
+        
+    </style>
+</head>
+
+<body>
+    <a href="./Home1.html" class="home">Home</a>
+    <br>
+    <br>
+    <a href="./Payment.html" class="back">Back</a>
+
+    <center><h1>Online Transaction</h1></center>
+    <img src="imgesshop/gpay-logo.2.png" width="300px">
+    <br>
+     <div class="t3">
+   Number:<input type="text" placeholder="Enter a valid number" class="t4">
+   
+
+      
+</div>
+<center><h1>OR</h1></center>
+<div class="t3">
+UPI ID :<input type="text" placeholder="Enter a valid UPI Id" checked class="t4">
+</div>
+<br>
+    
+
+<center> <a href="./consucess.html"><input type="button" onclick="f4()" value="Confirm" class="con"></a></center>
+    <script>
+        function f4(){
+            alert("your Order is confirmed !!")
+        }
+        console.log(f4);
+    </script>
+</body>
+</html>
